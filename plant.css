@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/* .padding_l{
+    margin: 13px;
+    margin-top: 0px;
+} */
+#head{
+    padding: 15px;
+    text-align: center;
+    background-color: antiquewhite;  
+
+}
+#logoimage img{
+    margin:0px 4vw;
+    height: 100px;
+}
+
+#tiheading h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* new section */
+.team_heading{
+    height: 30vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('image/teambg1.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading_state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.heading_state h1{
+    font-size: 50px;
+    line-height: 1.5;
+    color: rgb(255, 174, 0);
+} 
+.heading_state p{
+    font-size: 20px;
+    color: blanchedalmond;
+} 
+
+.row{
+    
+    margin: 30px;
+}
+
+.col-sm-4{
+    margin: 0px;
+}
+
+
+
+footer {
+    /* height: 100px; */
+    /* text-align: center; */
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: -2px;
+}
+
+.ti{
+    text-align: center;
+    color: rgb(243, 234, 230);
+}
+
+.bhagwa{
+    color: rgb(255, 174, 0);
+}
